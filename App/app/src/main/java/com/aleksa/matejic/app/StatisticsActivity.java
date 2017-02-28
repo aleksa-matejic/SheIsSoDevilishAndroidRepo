@@ -1,9 +1,9 @@
 package com.aleksa.matejic.app;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class StatisticsActivity extends AppCompatActivity
+public class StatisticsActivity extends Activity
 {
 
     @Override
