@@ -2,16 +2,13 @@ package com.aleksa.matejic.app;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Editable;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
-import android.widget.ListAdapter;
-import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
+
+import com.aleksa.matejic.app.utils.SharedPreferencesStore;
 
 public class NewProfileActivity extends Activity
 {
@@ -37,6 +34,13 @@ public class NewProfileActivity extends Activity
                     Toast.makeText(getApplicationContext(), "Input your name!", Toast.LENGTH_SHORT).show();
                     return;
                 }
+
+                // boolean result = SharedPreferencesStore.getInstance(NewProfileActivity.this).saveString(SharedPreferencesStore.getInstance(NewProfileActivity.this).CURRENT_PLAYER, etInputName.getText().toString());
+                // if(!result)
+                // {
+                //     System.out.println("Current player name not saved to pref store!");
+                // }
+
                 Intent myIntent = new Intent(NewProfileActivity.this, GameActivity.class);
                 startActivity(myIntent);
             }

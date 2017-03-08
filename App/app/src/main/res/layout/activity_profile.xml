@@ -6,4 +6,32 @@
     android:layout_height="match_parent"
     android:background="@drawable/background">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:textSize="@dimen/button_text_size"
+            android:text="Player Name Tmp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPlayerName"/>
+
+        <RelativeLayout
+            android:id="@+id/rlPlayGame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:textSize="@dimen/button_text_size"
+                android:text="@string/play_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvPlayGame"/>
+        </RelativeLayout>
+    </LinearLayout>
 </RelativeLayout>

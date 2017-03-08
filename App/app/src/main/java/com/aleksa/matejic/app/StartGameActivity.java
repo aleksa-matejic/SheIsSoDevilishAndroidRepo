@@ -10,6 +10,8 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
+import com.aleksa.matejic.app.utils.SharedPreferencesStore;
+
 public class StartGameActivity extends Activity
 {
     private RelativeLayout rlCreateNew;
@@ -37,6 +39,13 @@ public class StartGameActivity extends Activity
                 String message = "abc";
                 intent.putExtra(EXTRA_MESSAGE, message);
                 startActivity(intent);*/
+
+                //                String playerName = lvPreviousProfiles.getItemAtPosition(position).toString();
+                //                boolean result = SharedPreferencesStore.getInstance(StartGameActivity.this).saveString(SharedPreferencesStore.getInstance(StartGameActivity.this).CURRENT_PLAYER, playerName);
+                //                if(!result)
+                //                {
+                //                    System.out.println("Current player name not saved to pref store!");
+                //                }
 
                 Intent myIntent = new Intent(StartGameActivity.this, ProfileActivity.class);
                 startActivity(myIntent);
