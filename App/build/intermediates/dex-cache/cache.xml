@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Code\SheIsSoDevilishAndroidRepo\App\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Code\SheIsSoDevilishAndroidRepo\App\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_83be550766f6165d30a1275ad3d965211da751fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Code\SheIsSoDevilishAndroidRepo\App\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="547e1086af81104ede48ae07ffddfd8764fa2558">
+        <dex dex="C:\Code\SheIsSoDevilishAndroidRepo\App\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_21d50a9a8908068e0e19f4403b8b3771ee3c8170\classes.dex" />
+    </item>
+
+</items>
